@@ -17,9 +17,8 @@ public class Main {
         for (int i = 0; i < v.getPets().size(); i++) {
             Pet m = v.getPets().get(i);
             
-            System.out.println("Id mascota: " + m.getId() + "\n" + " con nombre " + m.getName() + 
-                    " de un color " + m.getHairColor() + " de tipo " + m.getTipo() +
-                    " y su dueño es " + m.getPerson().getName());                             
+            System.out.println("Id mascota: " + m.getId() + " es un " + m.getTipo() + " con nombre " + m.getName() + 
+                    ", color " + m.getHairColor() + " y su dueño es " + m.getPerson().getName());                             
         }
     }
         
@@ -29,7 +28,7 @@ public class Main {
         Dog p1 = new Dog("Schnauzer","1","Toby", "Gris");
         Dog p2 = new Dog("Husky","2","Cany", "Negro");
         Cat g1 = new Cat("4","Moon", "Negro");
-        Cat g2 = new Cat("5","Luna", "Blanca");
+        Cat g2 = new Cat("5","Luna", "Blanco");
         Hamster h1 = new Hamster(200,"6","Bruno", "cafe con negro");
         Hamster h2 = new Hamster(150,"7","Puplin", "blanco");
         
